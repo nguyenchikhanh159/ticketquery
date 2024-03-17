@@ -43,7 +43,7 @@ public class TicketQueryService {
                 .ticketId(ticket.getId())
                 .price(ticket.getPrice())
                 .availability(ticket.getAvailability())
-                .concertId(ticket.getConcert().getId())
+                .concertId(ticket.getId())
                 .build();
     }
 }
